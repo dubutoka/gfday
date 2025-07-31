@@ -2,36 +2,36 @@ class MemoryLaneGame {
     constructor() {
         this.memoryPairs = [
             {
-                text: "Our first date at the coffee shop",
-                image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=400&fit=crop&crop=center"
+                text: "Our first harvest together",
+                image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=400&fit=crop&crop=center"
             },
             {
-                text: "That time we got lost hiking",
+                text: "The time we planted our garden",
+                image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=400&fit=crop&crop=center"
+            },
+            {
+                text: "Our cozy farmhouse breakfast",
+                image: "https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?w=400&h=400&fit=crop&crop=center"
+            },
+            {
+                text: "The sunset over our fields",
+                image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=center"
+            },
+            {
+                text: "Our first chicken coop",
                 image: "https://images.unsplash.com/photo-1551632811-561732d1b306?w=400&h=400&fit=crop&crop=center"
             },
             {
-                text: "Our favorite pizza place",
-                image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=400&fit=crop&crop=center"
+                text: "The morning coffee on the porch",
+                image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=400&fit=crop&crop=center"
             },
             {
-                text: "The beach vacation last summer",
+                text: "Our fishing trip at the lake",
                 image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop&crop=center"
             },
             {
-                text: "Our movie night tradition",
+                text: "The bonfire under the stars",
                 image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=400&fit=crop&crop=center"
-            },
-            {
-                text: "The surprise birthday party",
-                image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop&crop=center"
-            },
-            {
-                text: "Our cooking adventures",
-                image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&crop=center"
-            },
-            {
-                text: "The road trip to the mountains",
-                image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&crop=center"
             }
         ];
         
