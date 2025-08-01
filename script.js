@@ -3,35 +3,35 @@ class MemoryLaneGame {
         this.memoryPairs = [
             {
                 text: "Our First National Girlfriend Day",
-                image: "images/first_gf_day_meal.jpg"  // Replace with your actual photo filename
+                image: "images/first_gf_day_meal.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "A trip to the beach after your Girlfriend Day meal ",
-                image: "images/beach_gf_day.jpg"  // Replace with your actual photo filename
+                image: "images/beach_gf_day.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "Our second time in Chicago",
-                image: "images/chicago.jpg"  // Replace with your actual photo filename
+                image: "images/chicago.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "Our first date eva when I asked you to be my girlfriend",
-                image: "images/first_date.jpg"  // Replace with your actual photo filename
+                image: "images/first_date.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "Me drunk asf when I tried to make you lose in a drinking game",
-                image: "images/kesang_party.jpg"  // Replace with your actual photo filename
+                image: "images/kesang_party.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "My first time visiting you in New York",
-                image: "images/first_time_in_ny.jpg"  // Replace with your actual photo filename
+                image: "images/first_time_in_ny.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "Our cute date at the Getty Center",
-                image: "images/getty_center.jpg"  // Replace with your actual photo filename
+                image: "images/getty_center.JPG"  // Replace with your actual photo filename
             },
             {
                 text: "Our first time in San Diego together",
-                image: "images/san_diego.jpg"  // Replace with your actual photo filename
+                image: "images/san_diego.JPG"  // Replace with your actual photo filename
             }
         ];
         
@@ -64,7 +64,7 @@ class MemoryLaneGame {
                 type: 'text',
                 content: pair.text,
                 pairId: index,
-                isFlipped: false,
+                isFlipped: true,
                 isMatched: false
             });
         });
@@ -76,7 +76,7 @@ class MemoryLaneGame {
                 type: 'image',
                 content: pair.image,
                 pairId: index,
-                isFlipped: false,
+                isFlipped: true,
                 isMatched: false
             });
         });
